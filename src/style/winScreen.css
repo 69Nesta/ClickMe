@@ -1,0 +1,22 @@
+
+#winScreen {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: rgb(91, 197, 97);
+}
+
+#winScreen > h2 {
+    color: rgb(255, 0, 255);
+}
+
+#winScreen > h2 > strong {
+    font-size: 26px;
+    font-weight: 900;
+}
